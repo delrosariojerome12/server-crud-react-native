@@ -4,6 +4,7 @@ const initEndpoints = require("./controllers/index");
 const cookieParser = require("cookie-parser");
 
 const app = express();
+require("dotenv").config();
 
 const corsOptions = {
   origin: "*",
